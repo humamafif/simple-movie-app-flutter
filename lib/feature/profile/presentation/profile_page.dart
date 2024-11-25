@@ -27,7 +27,7 @@ class ProfilePage extends StatelessWidget {
                   ),
                 ),
                 const Positioned(
-                  bottom: -40, 
+                  bottom: -40,
                   left: 30,
                   child: Row(
                     crossAxisAlignment: CrossAxisAlignment.center,
@@ -50,8 +50,7 @@ class ProfilePage extends StatelessWidget {
                           Text(
                             'Username',
                             style: TextStyle(
-                              color:
-                                  Colors.white, 
+                              color: Colors.white,
                               fontSize: 20,
                               fontWeight: FontWeight.bold,
                             ),
@@ -59,8 +58,7 @@ class ProfilePage extends StatelessWidget {
                           Text(
                             'username@gmail.com',
                             style: TextStyle(
-                              color:
-                                  Colors.white, 
+                              color: Colors.white,
                               fontSize: 14,
                             ),
                           ),
